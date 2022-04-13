@@ -1,0 +1,31 @@
+Fri Feb 12 04:51:45 PST 2021  [debug] AvalonLogSystem initialized using logfile 'velocity.log'
+Fri Feb 12 04:51:45 PST 2021   [info] ************************************************************** 
+Fri Feb 12 04:51:45 PST 2021   [info] Starting Jakarta Velocity v1.4
+Fri Feb 12 04:51:45 PST 2021   [info] RuntimeInstance initializing.
+Fri Feb 12 04:51:45 PST 2021   [info] Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+Fri Feb 12 04:51:45 PST 2021   [info] Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Fri Feb 12 04:51:45 PST 2021   [info] Using logger class org.apache.velocity.runtime.log.AvalonLogSystem
+Fri Feb 12 04:51:45 PST 2021   [info] Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+Fri Feb 12 04:51:45 PST 2021   [info] Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+Fri Feb 12 04:51:45 PST 2021   [info] ClasspathResourceLoader : initialization starting.
+Fri Feb 12 04:51:45 PST 2021   [info] ClasspathResourceLoader : initialization complete.
+Fri Feb 12 04:51:45 PST 2021   [info] ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+Fri Feb 12 04:51:45 PST 2021   [info] Default ResourceManager initialization complete.
+Fri Feb 12 04:51:45 PST 2021   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+Fri Feb 12 04:51:45 PST 2021   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+Fri Feb 12 04:51:45 PST 2021   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+Fri Feb 12 04:51:45 PST 2021   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Include
+Fri Feb 12 04:51:45 PST 2021   [info] Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+Fri Feb 12 04:51:45 PST 2021   [info] Created: 20 parsers.
+Fri Feb 12 04:51:45 PST 2021   [info] Velocimacro : initialization starting.
+Fri Feb 12 04:51:45 PST 2021   [info] Velocimacro : adding VMs from VM library template : VM_global_library.vm
+Fri Feb 12 04:51:45 PST 2021  [error] ResourceManager : unable to find resource 'VM_global_library.vm' in any resource loader.
+Fri Feb 12 04:51:45 PST 2021   [info] Velocimacro : error using  VM library template VM_global_library.vm : org.apache.velocity.exception.ResourceNotFoundException: Unable to find resource 'VM_global_library.vm'
+Fri Feb 12 04:51:45 PST 2021   [info] Velocimacro :  VM library template macro registration complete.
+Fri Feb 12 04:51:45 PST 2021   [info] Velocimacro : allowInline = true : VMs can be defined inline in templates
+Fri Feb 12 04:51:45 PST 2021   [info] Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+Fri Feb 12 04:51:45 PST 2021   [info] Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+Fri Feb 12 04:51:45 PST 2021   [info] Velocimacro : messages on  : VM system will output logging messages
+Fri Feb 12 04:51:45 PST 2021   [info] Velocimacro : autoload off  : VM system will not automatically reload global library macros
+Fri Feb 12 04:51:45 PST 2021   [info] Velocimacro : initialization complete.
+Fri Feb 12 04:51:45 PST 2021   [info] Velocity successfully started.
