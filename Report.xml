@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="HTMLSuite">
-  <test thread-count="0" name="HTMLReport">
-    <classes>
-      <class name="reportEmail.HTMLEmail"/>
-    </classes>
-  </test> <!-- HTMLReport -->
-</suite> <!-- HTMLSuite -->
